@@ -16,3 +16,6 @@ Production-style AI system to detect telecom campaign revenue anomalies.
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn
+
+## Architecture
+![Architecture](architecture.png)
