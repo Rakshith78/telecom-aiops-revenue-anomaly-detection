@@ -1,0 +1,5 @@
+date,campaign_id,revenue,paid_count,free_count,success_rate,timeout_rate
+2025-01-01,CAMP001,12000,450,120,98.2,1.8
+2025-01-02,CAMP001,11800,430,140,97.9,2.1
+2025-01-03,CAMP001,8500,300,90,92.1,7.9
+2025-01-04,CAMP001,12100,460,110,98.5,1.5
