@@ -13,10 +13,6 @@ def feature_engineering(df):
         / df["revenue"].shift(1)
     ) * 100
 
-  df["revenue_deviation_pct"] = (
-    (df["revenue"] - df["revenue"].shift(1)) 
-        / df["revenue"].shift(1)
-    ) * 100
     df["drop_flag"] = df["revenue_deviation_pct"] < -15
     
     return df
